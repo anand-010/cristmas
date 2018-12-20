@@ -252,6 +252,17 @@
       <img onclick="sendlink();" id="wtpimg" src="whatsapp.png">
       </a>
     </div>
+      <div id="newbar" style="
+    position: fixed;
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+    margin-bottom: 100px;
+">
+      <p>
+        Created by anand cherthala
+      </p>
+    </div>
   <input type="text" id="bottom" class="btn btn-primary-outline inline-d-block"placeholder="enter your name to share...">
 </div>
 <script>
@@ -279,7 +290,7 @@
             var article = $(this).attr(userName);
             var weburl = $(this).attr(fulllink);
             var whats_app_message = encodeURIComponent(fulllink);
-            var whatsapp_url = "whatsapp://send?text="+"Your friend "+userName+" Greeting a wonderfull Christmas chekout and create new greetings \n"+whats_app_message;
+            var whatsapp_url = "whatsapp://send?text="+"Your friend "+userName+" Greeting a wonderfull Christmas chekout and create new greetings \n"+fulllink;
             window.location.href= whatsapp_url;
             
         }else{
