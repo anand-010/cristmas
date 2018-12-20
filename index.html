@@ -3,25 +3,17 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <title>Happy Christmas</title>
-  
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   
   
       <link rel="stylesheet" href="./CSS 404page Christmas_files/style.css">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-6020127866641393",
-    enable_page_level_ads: true
-  });
-</script>
+  
 </head>
 
 <body>
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   
 <!-- santa-->
-
 <script>
   function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
@@ -34,13 +26,14 @@
     }
     console.log('Query variable %s not found', variable);
 }
+
   </script>
     <link rel="stylesheet" href="file:///css/christmas.css">
     <title>Marry cristmas</title>
     <div class="text-box">
       <div class="status-code">
-        <p>🎄</p>
-        <div class="zero" margin-left="10px">
+        <p>🎄 </p>
+        <div class="zero">
           <div class="zero__top">
             <div class="zero__top-inner"></div>
           </div>
@@ -109,7 +102,7 @@
             </div>
           </div>
         </div>
-        <p>🎄</p>
+        <p> 🎄</p>
       </div>
       <div class="text">
         <p class="text__error"><span>M</span><span>e</span><span>r</span><span>r</span><span>y</span><span>C</span><span>h</span><span>r</span><span>i</span><span>s</span><span>t</span><span>m</span><span>a</span><span>s</span>
@@ -183,7 +176,7 @@
     <div class="house house--second-floor">
       <div class="snowman">
         <div class="hukidashi hukidashi--speak">
-          <p>Merry christmas</p>
+          <p>Merry cristmas</p>
         </div>
         <div class="snowman__body">
           <div class="snowman__hat"></div>
@@ -253,21 +246,44 @@
         </div>
       </div>
     </div>
-    <div class="icon-bar">
-        <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">
-      <img src="whatsapp.png">
+    <div>
+    <div class="icon-bar inline-d-block">
+        <!-- <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"> -->
+          <a class="whatsapp">
+      <img onclick="sendlink();" id="wtpimg" src="whatsapp.png">
       </a>
     </div>
-
-    <script>
-        var getname = getQueryVariable('name');
-      if(getname=='undefined') 
-      {getname ="your name"}
-        document.getElementById("name").innerHTML = getname;
+  <input type="text" id="bottom" class="btn btn-primary-outline inline-d-block"placeholder="enter your name to share...">
+</div>
+<script>
+ document.getElementById("name").innerHTML = getQueryVariable('name');
     </script>
-  
-
-
-
+<script>
+  var fulllink='';
+  var userName = 'sample';
+  function sendlink(){
+    
+    userName = document.getElementById("bottom").value;
+    fulllink = "https://christmas-greets.tk/"+userName+"gotch";
+    console.log("the name"+userName+"  url  "+fulllink);
+  }
+  </script>
+<script>
+  $(document).ready(function() {
+     $('.whatsapp').on("click", function(e) {
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+          console.log("clicked");
+            var article = $(this).attr(userName);
+            var weburl = $(this).attr(fulllink);
+            var whats_app_message = encodeURIComponent(document.URL);
+            var whatsapp_url = "whatsapp://send?text="+whats_app_message;
+            window.location.href= whatsapp_url;
+            
+        }else{
+             alert('You Are Not On A Mobile Device. Please Use This Button To Share On Mobile');
+        }
+     });
+  });
+</script>
 
 </body></html>

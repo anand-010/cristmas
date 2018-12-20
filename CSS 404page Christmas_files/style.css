@@ -4,6 +4,28 @@ html {
   height: 100%;
   overflow: hidden;
 }
+#bottom{
+  position:absolute;
+bottom:0;
+width: 87%;
+height:80px;
+}
+#wtpimg{
+  /* margin-bottom: 60px; */
+}
+.icon-bar {
+  position: fixed;
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+  /* top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); */
+}
 .animated {
   font-family: 'Charm', cursive;
   margin: 0;
