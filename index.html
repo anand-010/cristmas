@@ -263,7 +263,7 @@
   function sendlink(){
     
     userName = document.getElementById("bottom").value;
-    fulllink = "https://christmas-greets.tk/"+userName+"gotch";
+    fulllink = "https://christmas-greets.tk/"+userName;
     console.log("the name"+userName+"  url  "+fulllink);
   }
   </script>
@@ -279,7 +279,7 @@
             var article = $(this).attr(userName);
             var weburl = $(this).attr(fulllink);
             var whats_app_message = encodeURIComponent(fulllink);
-            var whatsapp_url = "whatsapp://send?text="+"Your friend "+userName+" Greeting a wonderfull Christmas chekout and create greeting "+whats_app_message;
+            var whatsapp_url = "whatsapp://send?text="+"Your friend "+userName+" Greeting a wonderfull Christmas chekout and create new greetings \n"+whats_app_message;
             window.location.href= whatsapp_url;
             
         }else{
