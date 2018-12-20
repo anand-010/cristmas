@@ -248,7 +248,6 @@
     </div>
     <div>
     <div class="icon-bar inline-d-block">
-        <!-- <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"> -->
           <a class="whatsapp">
       <img onclick="sendlink();" id="wtpimg" src="whatsapp.png">
       </a>
@@ -279,8 +278,8 @@
           console.log("clicked  "+userName);
             var article = $(this).attr(userName);
             var weburl = $(this).attr(fulllink);
-            var whats_app_message = encodeURIComponent(document.URL);
-            var whatsapp_url = "whatsapp://send?text="+whats_app_message;
+            var whats_app_message = encodeURIComponent(fulllink);
+            var whatsapp_url = "whatsapp://send?text="+"Your friend "+userName+" Greeting a wonderfull Christmas chekout and create greeting "+whats_app_message;
             window.location.href= whatsapp_url;
             
         }else{
