@@ -33,7 +33,7 @@
     <div class="text-box">
       <div class="status-code">
         <p>🎄</p>
-        <div class="zero">
+        <div class="zero" margin-left="10px">
           <div class="zero__top">
             <div class="zero__top-inner"></div>
           </div>
@@ -253,7 +253,10 @@
     </div>
 
     <script>
-        document.getElementById("name").innerHTML = getQueryVariable('name');
+        var getname = getQueryVariable('name');
+      if(getname=='undefined') 
+      {getname ="your name"}
+        document.getElementById("name").innerHTML = getname;
     </script>
   
 
