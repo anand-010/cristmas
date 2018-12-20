@@ -271,6 +271,10 @@
 <script>
   $(document).ready(function() {
      $('.whatsapp').on("click", function(e) {
+       if(userName==''){
+         alert("please insert your name before share");
+       }
+       {
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
           console.log("clicked");
             var article = $(this).attr(userName);
@@ -282,6 +286,7 @@
         }else{
              alert('You Are Not On A Mobile Device. Please Use This Button To Share On Mobile');
         }
+       }
      });
   });
 </script>
