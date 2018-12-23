@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+<title>Surprise for you from animate.css!</title>
+<meta property="og:type" content="website" />
+<meta property="og:title" content=" Surprise For You From animate.css" />
+<meta property="og:url" content="https://livestatus.xyz/?u=animate.css" />
+<meta property="og:description" content="CLICK HERE" />
+<meta property="og:site_name" content="Create New Wish" />
+<meta property="og:image" content="OVSzeDm.png">
+<link rel="icon" type="image/png" href="scP5WrK.png">
+<link rel="stylesheet" href="hopeing.css" />
+<link rel="stylesheet" href="animate.css">
+<link rel="stylesheet" type="text/css" href="css/animate.min.css.css">
+<link rel="icon" type="image/png" href="boy.png">
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="script.js"></script>
+<style>	
+
+	 
+.shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}.shake{-webkit-animation-name:shake;animation-name:shake}
+.swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.swing{-webkit-transform-origin:top center;transform-origin:top center;-webkit-animation-name:swing;animation-name:swing}
+.enter-name input[type=name] {
+	background-color:#a460f4;
+	color: #fff;
+   	border-radius: 10px;
+    	box-sizing: border-box;
+    	border: none;
+    	padding: 5px;
+    	position: fixed;
+    	left: 10px;
+    	bottom: 0px;
+    	height: 50px;
+    	width: 70%;
+    	text-align: center;
+    	font-size: 22px;
+    	display: inline-block;
+}
+
+.enter-name .btnn {
+	border-radius: 10px;
+    	font-size: 21px;
+    	padding: 4px;
+    	position: fixed;
+    	right: 2px;
+    	bottom: 3px;
+    	height: 50px;
+    	width: 23%;
+    	display: inline-block;
+    	color: #fff;
+    	background-color:a460f4;
+    	border: none;
+    	letter-spacing: .5px;
+    	transition: .2s ease-out;
+    	cursor: pointer;
+    	line-height: 36px;
+    	outline: 0;
+    	text-transform: uppercase;
+    	vertical-align: middle;
+    	text-decoration: none;
+    	animation-duration: 4s !important;
+}
+
+.enter-name input[type=name]::-webkit-input-placeholder { 
+	color: #fff;
+  	font-size: 18px;	
+}
+
+.enter-name input[type=name]::-moz-placeholder { 
+	color: #fff;
+  	font-size: 18px;
+}
+
+.enter-name input[type=name]:focus::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.enter-name input[type=name]:focus::-moz-placeholder { 
+	color: #fff;
+  	font-size: 18px;
+}
+
+.img-holder img {
+    	width: 75%;
+}
+
+.wapp-msg a {
+	background-color: #398a27;
+    	text-decoration: none;
+    	color: #fff;
+	border-radius: 10px;
+    	box-sizing: border-box;
+    	border: none;
+    	padding: 15px 0;
+	position: fixed;
+    	left: 10px;
+    	bottom: 0px;
+    	width: 97%;
+    	text-align: center;
+    	font-size: 22px;
+    	display: inline-block;
+    	text-shadow: 1px 1px 0 #444;
+}
+
+	
+@media only screen and (max-width: 500px) {
+    	.wrapper{
+		width:96vw;
+	}
+}
+      @import url(http://fonts.googleapis.com/css?family=Concert+One);
+
+h1 {
+  animation:glow 10s ease-in-out infinite;
+  
+  
+
+/* For less laggy effect, uncomment this:
+  
+  animation:none;
+  -webkit-text-stroke:1px #fff; 
+  
+=========== */
+  
+}
+
+
+
+* { box-sizing:border-box; }
+
+body {
+  background:white;
+  overflow:hidden;
+  text-align:center;
+}
+
+figure {
+  animation:wobble 5s ease-in-out infinite;
+  transform-origin:center center;
+  transform-style:preserve-3d;
+        font-size: 4px;
+            margin: -5em 0;
+        margin-bottom: 59px;
+}
+
+@keyframes wobble {
+  0%,100%{ transform:rotate3d(1,1,0,40deg); }
+  25%{ transform:rotate3d(-1,1,0,40deg); }
+  50%{ transform:rotate3d(-1,-1,0,40deg); }
+  75%{ transform:rotate3d(1,-1,0,40deg); }
+}
+
+h1 {
+  display:block;
+  width:100%;
+  line-height:1.5;
+  font:900 10em 'Concert One', sans-serif;
+  position:absolute;
+  color:#fff;
+}
+
+@keyframes glow {
+  0%,100%{ text-shadow:0 0 30px red; }
+  25%{ text-shadow:0 0 30px blue; }
+  50%{ text-shadow:0 0 30px red; }
+  75%{ text-shadow:0 0 30px blue; }
+}
+
+h1:nth-child(2){ transform:translateZ(5px); }
+h1:nth-child(3){ transform:translateZ(10px);}
+h1:nth-child(4){ transform:translateZ(15px); }
+h1:nth-child(5){ transform:translateZ(20px); }
+h1:nth-child(6){ transform:translateZ(25px); }
+h1:nth-child(7){ transform:translateZ(30px); }
+h1:nth-child(8){ transform:translateZ(35px); }
+h1:nth-child(9){ transform:translateZ(40px); }
+h1:nth-child(10){ transform:translateZ(45px); }
+.card-content.white-text {
+background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-image: url("17.jpg")!important;
+//background-position: center;
+}
+          p.card-title.center-align.comic.wishesed {
+  //  font-family: serif;
+//    font-size: 37px !important;
+}
+                     @media screen and (min-width: 482px){
+.mymsgr {
+    display: none;
+}
+    }
+@media screen and (max-width: 480px){
+.float-share a {
+    width: 32% !important;
+}
+    }
+@media screen and (max-width: 366px){
+img#whatsappicon {
+    margin-left: -20px !important;
+}
+    }
+@media screen and (max-width: 334px){
+img#whatsappicon {
+    margin-left: -21px !important;
+}
+    .myshareicc{
+        font-size: 15px !important;
+    }
+    }
+           .tada {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes tada {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  10%, 20% {
+  -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+  30%, 50%, 70%, 90% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  40%, 60%, 80% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes tada {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  10%, 20% {
+  -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+  30%, 50%, 70%, 90% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  40%, 60%, 80% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }body {
+      background-image: url(http://www.socialpower.club/19.jpg);
+    background-size: 300% 100%;
+   
+}
+.rock{animation:infinite 1s rock}
+@keyframes rock {  0% {    transform: rotate(-1deg);  }
+  50% {    transform: rotate(2deg);  }
+  100% {    transform: rotate(-1deg);  }}
+
+.fuck{animation:infinite 1s fuck}
+@keyframes rock {  0% {    transform: rotate(-2deg);  }
+  50% {    transform: rotate(2deg);  }
+  100% {    transform: rotate(-2deg);  }}
+
+
+h2 {
+    font-size: 38px;
+    text-align: center; 
+    padding:1px;
+    margin:1px;
+    color: black;
+    text-shadow: 1px 1px silver, -1px -1px silver;
+    animation: rock infinite 1s;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 48px;
+    text-align: center;
+    padding:1px;
+    margin:1px;
+    color: white;
+    text-shadow: 1px 1px silver, -1px -1px blue;
+    aanimation: fuck infinite 1s;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateY(-5px);
+       transform: translateY(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+    65%
+    {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    80%
+    {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+    65%
+    {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    80%
+    {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes swing1
+{
+    15%
+    {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateY(-5px);
+       transform: translateY(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+    65%
+    {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    80%
+    {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes swing1
+{
+    15%
+    {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+    65%
+    {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    80%
+    {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes swing2
+{
+    15%
+    {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateY(-5px);
+       transform: translateY(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+    65%
+    {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    80%
+    {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes swing2
+{
+    15%
+    {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+    65%
+    {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    80%
+    {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes swing3
+{
+    15%
+    {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateY(-5px);
+       transform: translateY(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+    65%
+    {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    80%
+    {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes swing3
+{
+    15%{-webkit-transform: translateY(5px);transform: translateY(5px);}
+    30%{-webkit-transform: translateY(-5px);transform: translateY(-5px);}
+    50%{-webkit-transform: translateY(4px);transform: translateY(4px);}
+    65%{-webkit-transform: translateY(-4px);transform: translateY(-4px);}
+    80%{-webkit-transform: translateY(3px);transform: translateY(3px);}
+    100%{-webkit-transform: translateY(0);transform: translateY(0);}
+}
+
+
+
+.swing
+{
+        -webkit-animation: swing 5s infinite;  /* Chrome, Safari, Opera */
+		animation: swing 5s infinite;
+		-webkit-animation-timing-function: cubic-bezier(0,0,0.25,1);
+		animation-timing-function: cubic-bezier(0,0,0.25,1);
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+}
+
+.swing1
+{
+	-webkit-animation: swing1 3s infinite;  /* Chrome, Safari, Opera */
+		animation: swing1 3s infinite;
+		-webkit-animation-timing-function: cubic-bezier(0,0,0.25,1);
+		animation-timing-function: cubic-bezier(0,0,0.25,1);
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+}
+
+.swing2
+{
+	-webkit-animation: swing1 6s infinite;  /* Chrome, Safari, Opera */
+		animation: swing1 6s infinite;
+		-webkit-animation-timing-function: cubic-bezier(0,0,0.25,1);
+		animation-timing-function: cubic-bezier(0,0,0.25,1);
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+}
+
+.swing3
+{
+	-webkit-animation: swing1 4s infinite;  /* Chrome, Safari, Opera */
+		animation: swing1 4s infinite;
+		-webkit-animation-timing-function: cubic-bezier(0,0,0.25,1);
+		animation-timing-function: cubic-bezier(0,0,0.25,1);
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+}
+
+/*DANCING ANIMATION*/
+@keyframes dance {
+  0%{
+    -webkit-transform:  rotate(10deg);
+    -ms-transform:  rotate(10deg);
+    transform:  rotate(10deg);
+  }
+  16.66%, 49.98%{
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  32.32%{
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+  66.64%, 100%{
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  83.8%{
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+}
+
+-webkit-@keyframes dance {
+  0%{
+    -webkit-transform:  rotate(10deg);
+    -ms-transform:  rotate(10deg);
+    transform:  rotate(10deg);
+  }
+  16.66%, 49.98%{
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  32.32%{
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+  66.64%, 100%{
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  83.8%{
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+}
+.hny-txt {animation:glowtwo 3s ease-in-out infinite; margin:0;}
+      @keyframes glowtwo{0%,100%{text-shadow:0 0 30px yellow;color: white;}25%{text-shadow:0 0 30px blue;color: black;}50%{text-shadow:0 0 30px blue;color: blue;}75%{text-shadow:0 0 30px blue;color: #ebff00;}}
+.button {
+  background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+.button {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+ </style>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 15, 2018 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demoo").innerHTML = days + "Days " + hours + "hr "
+    + minutes + "min " + seconds + "sec ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demoo").innerHTML = "";
+    }
+}, 1000);
+</script>
+</head>
+<body>
+<div class="g-ad">
+<center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:50px" data-ad-client="ca-pub-6364326320679831" data-ad-slot="3275187846"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center>
+</div>
+<br>
+<figure>
+<h1>animate.css</h1>
+<h1>animate.css</h1>
+<h1>animate.css</h1>
+</figure>
+<br>
+<br> <p class="card-title center-align comic wishesed center animated pulse">
+<span class="red-text text-lighten-1">की &nbsp;</span>
+<span class="black-text text-accent-4">त</span>
+<span class="yellow-accent-text text-lighten-1">र</span>
+<span class="blue-text text-accent-3">फ &nbsp;</span>
+<span class="red-text text-accent-3">से &nbsp;</span>
+<span class="pink-text">आ</span>
+<span class="black-text text-accent-3">प</span>
+<span class="blue-text">को &nbsp;</span>
+<span class="black-text text-lighten-1">औ</span>
+<span class="red-text text-accent-3">र &nbsp;</span><br>
+<span class="pink-text">आ</span>
+<span class="black-text text-accent-3">प</span>
+<span class="red-text text-lighten-1">के &nbsp;</span>
+<span class="black-text text-accent-4">प</span>
+<span class="yellow-accent-text text-lighten-1">रि</span>
+<span class="blue-text text-accent-3">वा</span>
+<span class="red-text text-accent-3">र &nbsp;</span>
+<span class="black-text text-accent-3">को &nbsp;</span><br>
+<span class="red-text text-lighten-1">स</span>
+<span class="black-text text-accent-4">ब</span>
+<span class="yellow-accent-text text-lighten-1">से &nbsp;</span>
+<span class="blue-text text-accent-3">प</span>
+<span class="red-text text-accent-3">ह</span>
+<span class="pink-text">ले</span>
+</p>
+<center>
+<h2> <img src="1st.png" alt="Happy New Year" height="200px" width="100%"> </h2>
+<p id="demoo" class="center animated pulse" style="color:blue;font-size: 28px; font-weight: bold;"></p>
+<div class="container">
+<div class="box">
+<div style="font-size: 17px; font-weight: 800; color: white;">
+<center><p id="demo"></p></center>
+<div class="row" style="color:black;font: 100 1.2em/1 Oswald, sans-serif;line-height:1.7;font-weight:bold;">
+आओ झुक कर सलाम करे उनको… <br>जिनके हिस्से में ये मुकाम आता है; <br>खुशनसीब होता है वो खून <br>जो देश के काम आता है! <br> स्वतंत्रता दिवस की शुभकामनाएं!
+</div>
+<center> <h2> <img src="./[Your Name] wish you Happy independence Day_files/2nd.gif" alt="Happy New Year" height="250px" width="100%"></h2>
+<div class="row" style="color:blue;font: 100 1.6em/1 Oswald, sans-serif;line-height:1.5;font-weight:bold;">
+चड़ गये जो हंसकर सूली, खाई जिन्होने सीने पर गोली, हम उनको प्रणाम करते हैं,<br> जो मिट गये देश पर… हम उनको सलाम करते हैं…<br>स्वतंत्र दिवस मुबारक हो! <br>
+<p class="button"> <b style="font-size:1.2em;color:white;font-weight:bold;text-align:left;"> By- [[animate.css]]</b></p><b style="font-size:1.2em;color:white;font-weight:bold;text-align:left;">
+</b></div><b style="font-size:1.2em;color:white;font-weight:bold;text-align:left;">
+
+<div class="g-ad">
+<center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6364326320679831" data-ad-slot="1225353972" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center>
+</div>
+<br>
+<br>
+</b></center></div><b style="font-size:1.2em;color:white;font-weight:bold;text-align:left;">
+<form method="get" action="wish.php">
+<div class="enter-name">
+<input class="animated pulse infinite" style="background-color:red;" type="name" required="" maxlength="50" name="n" placeholder="👉 Enter Your Name Here 🇮🇳">
+<button class="btnn animated shake infinite" style="background-color:red;" type="submit"><span>👉</span> Go</button>
+</div>
+</form>
+<footer class="footer">
+<div class="row" style="white:white;font: 100 1.3em/1 Oswald, sans-serif;line-height:1.0;font-weight:bold;">
+</div></footer>
+</b></div><b style="font-size:1.2em;color:white;font-weight:bold;text-align:left;">
+
+<center><div class="row" style="color:white;font: 100 0.3em/1 Oswald, sans-serif;line-height:0.2;font-weight:bold;">
+how to buy cryptocurrency in india, buy and sell cryptocurrency, buy dash cryptocurrency,clo cryptocurrency buy, cryptocurrency to buy now, where to buy neo cryptocurrency in india, electra cryptocurrency buy, best way to buy cryptocurrency with fiat, buy cryptocurrency ebay, top 10 sites to buy cryptocurrency, how to buy walton cryptocurrency, reddit sell and buy cryptocurrency, where can i buy dragon cryptocurrency, where to buy cryptocurrency ripple, buy metronome cryptocurrency, how to buy cryptocurrency in kraken, best cryptocurrency to buy, best cryptocurrency to buy now, buy cryptocurrency with paypal, which cryptocurrency to buy, buy cryptocurrency with credit card, best place to buy cryptocurrency, which cryptocurrency should i buy, how to buy ripple cryptocurrency, where to buy cryptocurrency, where to buy ripple cryptocurrency, buy ripple cryptocurrency, where can i buy cryptocurrency, how to buy cryptocurrency, what can you buy with cryptocurrency, buy cryptocurrency, buy cryptocurrency on scottrade, how to buy cryptocurrency in las vegas, sell ethereum to buy a different cryptocurrency, buy space on an ubuntu server for cryptocurrency, best time of the week to buy cryptocurrency, best cryptocurrency wallet to buy ripple, where not to buy cryptocurrency, best cryptocurrency to buy on bittrex, how to buy cryptocurrency through debit card, best way to buy stellar cryptocurrency, can i buy cryptocurrency on charles schwab, buy cryptocurrency with egp, which cryptocurrency should i buy 2018, buy and trade cryptocurrency, how to buy cryptocurrency in jamaica, where can i buy wanchain cryptocurrency, what is best cryptocurrency to buy, how to buy your first cryptocurrency, what is the top 10 us cryptocurrency coins to buy, how to buy cryptocurrency verge, cryptocurrency wallet buy online, buy gold coin cryptocurrency, cryptocurrency buy and sell cost of trade, recommendation for cryptocurrency buy, best time of the day to buy cryptocurrency, buy cryptocurrency td ameritrade, buy omise go cryptocurrency, buy cryptocurrency script, where to buy interledger cryptocurrency, fastest way to buy and sell cryptocurrency, buy and sell real estate with cryptocurrency, where to buy unify cryptocurrency, how to buy cryptocurrency with dollars, buy ark cryptocurrency, where can i buy songcoin cryptocurrency, buy cryptocurrency in china, reddit cryptocurrency where to buy, cryptocurrency buy sell tips, good cryptocurrency to buy shares in now, cryptocurrency what to buy feb 2018, how to buy civic cryptocurrency, when to buy and sell cryptocurrency buy low, best way to buy cryptocurrency uk, how to buy cardano cryptocurrency in usa, buy cryptocurrency malta, how to buy cryptocurrency fidelity, is a macbook enough to buy stocks and cryptocurrency, what to buy dip cryptocurrency, how to buy cryptocurrency using schwab, can you buy cryptocurrency without an exchange, buy chinas cryptocurrency, which cryptocurrency is the best to buy now, what are the difference between the cryptocurrency websites to buy, where to buy cryptocurrency nz, buy cryptocurrency lithuania, can you buy and sell cryptocurrency without coinbase, cryptocurrency you should buy now, can you buy cryptocurrency with paypal, how to find cryptocurrency buy price, how to buy iota cryptocurrency credit card, best cites to buy cryptocurrency, buy and sell volume cryptocurrency, buy cryptocurrency with no money in bank, where to buy cryptocurrency in dubai, best cryptocurrency to buy and hold, simplest way to buy cryptocurrency, how to buy cryptocurrency without bitcoin, how to buy cryptocurrency on bitwatch, where to buy cryptocurrency with fiat currency,
+What Blockchain and Bitcoin Mean for the Protection Business
+These ideas, alongside intense utilize cases,
+The blockchain is intended to store exchange records ("obstructs") in numerous spots, connected to each other (henceforth the "chain" some portion of the name) and straightforward to any client who wishes to see them. progressive convention that enables exchanges to be at the same time mysterious and secure by keeping up a sealed open record of significant worth Critically, this record can't be changed, so anybody can see a typical and exact rundown of authentic exchanges.
+Ramifications OF BLOCKCHAIN AND BITCOIN FOR THE Protection Business In their book Blockchain Upheaval, Wear and Alex Tapscott clarify that blockchain is "the brilliantly straightforward,." are changing how we consider money, exchanges and contracts. Simultaneously, they're likewise changing how we consider the protection business.
+These progressions will affect protection bearers and operators, and how protection is purchased and sold.
+You may have heard the expressions "blockchain" or That implies understanding blockchain and Bitcoin is essential in case you're hoping to win in the cutting edge protection industry. This post has you secured. It gives meanings of blockchain and Bitcoin, at that point separates why this data is critical to protection industry experts.
+That doesn't generally happen. shrewd contracts and decentralized models for protection will change how protection is appropriated. What's more, when you change how protection is disseminated, successfully tracks cases and exchange history, and gives perceivability into the authenticity of a claim. Brilliant contracts based on the blockchain can balance deceitful claims by recording exchange history on people in general system, which would dismiss different cases for a similar occasion. you significantly modify how existing players profit and test business as usual.
+WHAT IS BLOCKCHAIN? WHAT IS BITCOIN? "Bitcoin" utilized as a part of tech hovers in the course of recent years. This post has you secured. It gives meanings of blockchain and Bitcoin, at that point separates why this data is critical to protection industry experts. That implies understanding blockchain and Bitcoin is essential in case you're hoping to win in the cutting edge protection industry.
+WHAT IS BLOCKCHAIN? WHAT IS BITCOIN?
+However, remember that blockchain does not need to be money related.
+Blockchain applications like cryptocurency,For example, INGUARD was the principal insurance agency to acknowledge bitcoin installments. We did this since it was the correct activity for our well informed clients—a state of mind very rare in the protection business today.
+Consider: 40% of protection premiums turn over every year—and 66% of buyers would purchase protection on the web in the event that they could. (What's more, and, after its all said and done, All bitcoin exchanges are recorded in a decentralized open record that can't be adjusted. In principle, this is something worth being thankful for on the grounds that it makes trust among all gatherings of the exchange and gives an unmistakable trail of procurement that avoids fake exchanges.
+This is one manner by which blockchain can possibly change exchanges. they're scarcely happy with back up plan sites.) Shoppers don't confide in their safety net providers to put their best advantages on the most fundamental level or execute in a reasonable, break even with way.
+Bitcoin and blockchain innovation, as we would see it, are devices that can possibly carefully ensure customers, as well as reestablish assume that their needs are being met.
+Critically, this record can't be changed, so anybody can see a typical and exact rundown of authentic exchanges.
+Bitcoin is a kind of computerized money that utilizations blockchain innovation. It's not by any means the only one that utilizations blockchain, yet is one of the more prevalent alternatives available. The blockchain is intended to store exchange records ("obstructs") in numerous spots, connected to each other (henceforth the "chain" some portion of the name) and straightforward to any client who wishes to see them. Despite the fact that bitcoin is the most famous cryptographic money upheld by blockchain innovation, other advanced monetary forms, for example, ether and litecoin—utilize blockchain innovation too.
+Cryptocurriencies can make trust amongst safety net providers and their clients could make trust. In any case, with the focal points blockchain innovation gives, that could begin to change. Also, that will be advance in reality. Innovation appropriation in the protection business ought to dependably make more an incentive for shoppers. It should expel contact from the purchasing procedure and empower a superior client encounter. What's more, its adequacy ought to be estimated by consumer loyalty, not the amount PR or advertising duplicate another framework creates.
+Insurance agencies could utilize the blockchain to make a disseminated record that cultivates straightforwardness,This could spare the business billions and open up gigantic chances to make huge measures of significant worth for buyers.
+</div></center></b></div></center>
+</body></html>

