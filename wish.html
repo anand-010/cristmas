@@ -1167,7 +1167,8 @@ Tis the season to keep in touch with those we value very much!
                   var weburl = $(this).attr(fulllink);
                   var whats_app_message = encodeURIComponent(fulllink);
                   var whatsapp_url = "whatsapp://send?text=What a lovely Surprise by "+userName+"\n -> Open the link->       \n Touch the Gift.👇         \n https://christmas-greetings.ml/?name="+userName;
-                  window.location.href= whatsapp_url;
+                  console.log(whatsapp_url);
+		   window.location.href= whatsapp_url;
               }else{
                    alert('You Are Not On A Mobile Device. Please Use This Button To Share On Mobile');
               }
