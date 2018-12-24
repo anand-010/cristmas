@@ -1105,7 +1105,6 @@ var x = setInterval(function() {
         document.getElementById("man").innerHTML = getQueryVariable('name');
         document.getElementById("mana").innerHTML = getQueryVariable('name');
         document.getElementById("manb").innerHTML = getQueryVariable('name');
-	document.getElementById("newman").innerHTML = "By "+getQueryVariable('name');
         var userName = getQueryVariable('name');
         var fulllink = "https://christmas-greetings/?name="+userName;
     </script>
@@ -1139,7 +1138,9 @@ Tis the season to keep in touch with those we value very much!
 <div class="row" style="padding-left: 17px;padding-right: 17px;color:blue;font: 100 1.6em/1 Oswald, sans-serif;line-height:1.5;font-weight:bold;">
 <b style="text-shadow: 1px 1px 3px white, 1px 1px 3px white, -1px -1px 3px white, -1px -1px 3px white; color: red;">Let this New Year be the one,<br>where all your dreams come true,<br>so with a joyful heart,<br>put a start to this year anew.<br>Wishing you in Advance a prosperous and happy New Year 2019!</b> <br> <p class="button"> <b id="newman" style="font-size:1.2em;color:white;font-weight:bold;text-align:left;"> By- Your friend</b></p><b style="font-size:1.2em;color:white;font-weight:bold;text-align:left;">
 </b></div><b style="font-size:1.2em;color:white;font-weight:bold;text-align:left;">
-
+<script>
+	document.getElementById("newman").innerHTML = "By "+getQueryVariable('name');
+</script>
 <div class="g-ad">
 <center>
 
