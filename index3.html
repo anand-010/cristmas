@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" rel="stylesheet">
+
+<link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-database.js"></script>
+
+  <script>
+    // TODO: Replace the following with your app's Firebase project configuration
+  // Initialize Firebase
+	  var config = {
+		apiKey: "AIzaSyANR-qTFZater1wKiKTjORpD62tRGcRKFU",
+		authDomain: "web-projects-ac2fc.firebaseapp.com",
+		databaseURL: "https://web-projects-ac2fc.firebaseio.com",
+		projectId: "web-projects-ac2fc",
+		storageBucket: "web-projects-ac2fc.appspot.com",
+		messagingSenderId: "953650920811"
+	  };
+	  firebase.initializeApp(config);
+	  
+	  //the other configurations
+	  
+	  var provider = new firebase.auth.GoogleAuthProvider();
+	  provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+	  
+
+  </script>
+
+<div class="card">
+  <div class="card__left">
+    <div class="card__left__header">
+      <h4>Lorem Ipsum Dolor</h4>
+      <h1>Become a member</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cupiditate quo  officiis praesentium obcaecati excepturi ut laborum.</p>
+    </div>
+    <div class="card__left__buttons">
+      <a id="google_btn" href="#"><i class="ion-social-googleplus"></i>Sign up using Google +</a>
+      <a id="facebook_btn" href="#"><i class="ion-social-facebook"></i> Sign up using Facebook</a>
+      <a id="twitter_btn" href="#"><i class="ion-social-twitter"></i>Sign up using Twitter</a>
+    </div>
+    <div class="card__left__footer">
+      <span>You can also sign in using an email address</span>
+      <span class="use-email">Use your email <i class="ion-ios-arrow-thin-right"></i></span>
+    </div>
+  </div>
+  <div class="card__right"></div>
+</div>
+<style>
+.card__left__buttons a {
+	 border: 1px solid #dbdee2;
+	 border-radius: 5px;
+	 display: block;
+	 font-weight: 600;
+	 letter-spacing: 0.2rem;
+	 margin-bottom: 20px;
+	 padding: 20px 30px;
+	 text-align: center;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 transition: 0.2s ease all;
+	 width: 400px;
+}
+ .card__left__buttons a:hover {
+	 border: 1px solid transparent;
+	 box-shadow: 0 4px 18px -5px #949caa;
+}
+ .card__left__header, .card__left__buttons, .card__left__footer {
+	 padding: 0 65px;
+}
+ *, *:after, *:before {
+	 box-sizing: border-box;
+}
+ body, html {
+	 height: 100%;
+	 margin: 0;
+	 padding: 0;
+	 width: 100%;
+}
+ body {
+	 background-color: #4d515e;
+	 font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+	 display: flex;
+	 align-items: center;
+	 font-size: 10px;
+	 justify-content: center;
+}
+ .card {
+	 background-color: #fff;
+	 border-radius: 8px;
+	 display: flex;
+	 overflow: hidden;
+	 height: 580px;
+	 min-width: 440px;
+	 width: 939px;
+}
+ .card__left {
+	 display: flex;
+	 flex-direction: column;
+	 width: 70%;
+}
+ @media screen and (max-width: 689px) {
+	 .card__left {
+		 width: 100%;
+	}
+}
+ .card__left__header {
+	 margin-top: 3rem;
+}
+ .card__left__header h1 {
+	 color: #3d3e43;
+	 font-size: 2.5rem;
+	 font-weight: 300;
+	 margin: 0;
+}
+ .card__left__header h4 {
+	 color: #949caa;
+	 font-size: 0.6rem;
+	 letter-spacing: 0.1rem;
+	 margin-bottom: 0.6rem;
+	 text-transform: uppercase;
+}
+ .card__left__header p {
+	 color: #949caa;
+	 line-height: 1.5rem;
+	 font-size: 0.8rem;
+}
+ .card__left__buttons {
+	 flex-grow: 1;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+}
+ .card__left__buttons a {
+	 color: #4d515e;
+	 position: relative;
+}
+ .card__left__buttons a i {
+	 position: absolute;
+	 font-size: 1.3rem;
+	 left: 30px;
+	 top: 15px;
+}
+ .card__left__buttons a i.ion-social-googleplus {
+	 color: #cd5647;
+}
+ .card__left__buttons a i.ion-social-facebook {
+	 color: #415993;
+}
+ .card__left__buttons a i.ion-social-twitter {
+	 color: #4ba0ec;
+}
+ @media screen and (max-width: 500px) {
+	 .card__left__buttons a {
+		 width: 100%;
+	}
+}
+ .card__left__footer {
+	 display: flex;
+	 justify-content: space-between;
+	 font-size: 0.7rem;
+	 padding-top: 30px;
+	 padding-bottom: 30px;
+	 border-top: 1px solid #dbdee2;
+}
+ .card__left__footer .use-email {
+	 font-size: 0.5rem;
+	 font-weight: 600;
+	 letter-spacing: 0.1rem;
+	 text-transform: uppercase;
+	 color: limegreen;
+}
+ .card__left__footer .use-email i {
+	 font-size: 0.7rem;
+	 margin-left: 10px;
+	 margin-right: 20px;
+}
+ .card__right {
+	 background: url('library.jpg') no-repeat center center;
+	 background-size: cover;
+	 width: 35%;
+}
+ @media screen and (max-width: 689px) {
+	 .card__right {
+		 display: none;
+	}
+}
+ 
+</style>
+</body>
+<script>
+var google_btn = document.getElementById('google_btn');
+
+google_btn.addEventListener('click', e =>{
+console.log("yep the button clicked");
+	  firebase.auth().signInWithPopup(provider).then(function(result) {
+  // This gives you a Google Access Token. You can use it to access the Google API.
+  var token = result.credential.accessToken;
+  // The signed-in user info.
+  var user = result.user;
+  // ...
+}).catch(function(error) {
+  // Handle Errors here.
+  var errorCode = error.code;
+  var errorMessage = error.message;
+  // The email of the user's account used.
+  var email = error.email;
+  // The firebase.auth.AuthCredential type that was used.
+  var credential = error.credential;
+  // ...
+});
+
+firebase.auth().signInWithRedirect(provider);
+})
+</script>
+</html>
