@@ -27,13 +27,6 @@
 		messagingSenderId: "953650920811"
 	  };
 	  firebase.initializeApp(config);
-	  
-	  //the other configurations
-	  
-	  var provider = new firebase.auth.GoogleAuthProvider();
-	  provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
-	  
-
   </script>
 
 <div class="card">
@@ -201,6 +194,7 @@
 var google_btn = document.getElementById('google_btn');
 
 google_btn.addEventListener('click', e =>{
+		  var provider = new firebase.auth.GoogleAuthProvider();
 console.log("yep the button clicked");
 	  firebase.auth().signInWithPopup(provider).then(function(result) {
   // This gives you a Google Access Token. You can use it to access the Google API.
